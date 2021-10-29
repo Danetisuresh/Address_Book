@@ -1,8 +1,10 @@
 package com.bridgelabz;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.function.Function;
+
 /**
- * Purpose - Ability to sort the entries in the address book alphabetically by Person’s name.
+ * Purpose - Ability to sort the entries in the address book by City, State, or Zip.
  */
 
 public class AddressBook {
@@ -293,6 +295,9 @@ public class AddressBook {
 			AddressBook.sortBy(Contacts::getState).forEach(System.out::println);
 			break;
 		case 5:
+			AddressBook.sortBy(Contacts::getZip).forEach(System.out::println);
+			break;
+		case 6:
 			return;
 		default:
 			System.out.println("INVALID CHOICE!");

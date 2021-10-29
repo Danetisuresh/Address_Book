@@ -2,7 +2,7 @@ package com.bridgelabz;
 import java.util.*;
 
 /**
- * Purpose - Ability to search Person in a City or State across the multiple Address Book
+ * Purpose - Ability to sort the entries in the address book by City, State, or Zip
  */
 
 public class AddressBookMain {

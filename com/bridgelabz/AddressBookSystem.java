@@ -4,7 +4,8 @@ import java.util.Scanner;
 import java.util.HashMap;
 
 /*
- * Purpose - To add multiple contacts an Address Book System
+ * Purpose - To ensure that there is no duplicate entry
+
  */
 
 public class AddressBookSystem {
